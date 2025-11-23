@@ -1,5 +1,5 @@
 # Use Apify base image with Playwright
-FROM apify/actor-node-playwright-chrome:18
+FROM apify/actor-node-playwright-chrome:latest
 
 # Copy package files
 COPY package*.json ./
