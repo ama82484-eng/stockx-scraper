@@ -1,0 +1,19 @@
+{
+  "name": "stockx-product-extractor",
+  "version": "1.0.0",
+  "description": "Professional StockX product data extractor with size validation and proxy rotation",
+  "author": "Fortyfour-Sneaker Tools",
+  "license": "Apache-2.0",
+  "type": "module",
+  "dependencies": {
+    "apify": "^3.1.0",
+    "crawlee": "^3.5.0"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
